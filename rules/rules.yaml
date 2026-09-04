@@ -1,0 +1,277 @@
+# ============================================================
+#  DART 공시 중요도 룰셋
+#  - 지배구조(Governance) 테마 아이디에이션을 1순위 목표로 설계
+#  - 이 파일만 고치면 점수 체계가 바뀜. 코드 수정 불필요.
+#  - 버전을 올리면 사이트 하단에 룰셋 버전이 표시됨
+# ============================================================
+version: "2026.09.04-1"
+
+# ---------- 0. 수집 대상 ----------
+collect:
+  pblntf_ty: [A, B, C, D, E, I]     # A정기 B주요사항 C발행 D지분 E기타 I거래소
+  drop_report_patterns:              # 제목이 이 패턴이면 즉시 폐기 (노이즈)
+    - "일괄신고추가서류"
+    - "투자설명서"
+    - "증권신고서\\(채무증권\\)"
+    - "증권발행실적보고서"
+    - "파생결합증권"
+    - "파생결합사채"
+    - "합병등종료보고서"
+    - "자산양수도\\(기타\\)"
+  drop_corp_cls: [E, N]              # E 비상장, N 코넥스 (유니버스 밖)
+
+# ---------- 1. 유형 가중치 (base) ----------
+# 정규식으로 report_nm 매칭. 위에서부터 첫 매치를 사용.
+types:
+  - { id: MERGE,        w: 55, tag: 지배구조, re: "회사합병결정|분할결정|분할합병|주식교환|주식의포괄적이전|영업양수|영업양도" }
+  - { id: MAJOR_CHG,    w: 45, tag: 지배구조, re: "최대주주변경" }
+  - { id: ORDER,        w: 50, tag: 수주,     re: "단일판매ㆍ공급계약|단일판매·공급계약" }
+  - { id: VALUEUP,      w: 50, tag: 자본정책, re: "기업가치제고계획|기업가치 제고 계획" }
+  - { id: EARNINGS,     w: 50, tag: 실적,     re: "영업\\(잠정\\)실적|매출액또는손익구조|결산실적공시" }
+  - { id: CANCEL_SHR,   w: 45, tag: 자본정책, re: "주식소각결정" }
+  - { id: TRUST_END,    w: 28, tag: 자본정책, re: "자기주식취득 ?신탁계약 ?해지|자기주식취득신탁계약해지" }
+  - { id: BUYBACK,      w: 40, tag: 자본정책, re: "자기주식취득" }
+  - { id: RIGHTS,       w: 40, tag: 자본정책, re: "유상증자결정" }
+  - { id: RUMOR,        w: 40, tag: 정책,     re: "풍문 또는 보도에 대한 해명|풍문또는보도에대한해명" }
+  - { id: DISPOSE_SHR,  w: 35, tag: 자본정책, re: "자기주식처분결정" }
+  - { id: CB_BW,        w: 35, tag: 자본정책, re: "전환사채권발행결정|신주인수권부사채권발행결정|교환사채권발행결정" }
+  - { id: OTHER_EQ,     w: 35, tag: 지배구조, re: "타법인주식및출자증권(취득|양도|처분|양수)" }
+  - { id: PLEDGE,       w: 30, tag: 지배구조, re: "최대주주변경을수반하는주식담보제공" }
+  - { id: SUIT_JUDG,    w: 32, tag: 리스크,   re: "소송등의판결" }
+  - { id: SUIT_FILE,    w: 30, tag: 리스크,   re: "소송등의제기" }
+  - { id: BAD_DISC,     w: 40, tag: 리스크,   re: "불성실공시법인|상장적격성 실질심사|주권매매거래정지|관리종목" }
+  - { id: DIVIDEND,     w: 30, tag: 자본정책, re: "현금ㆍ현물배당결정|금전배당결정|배당결정" }
+  - { id: LARGE_HOLD,   w: 30, tag: 지분,     re: "주식등의대량보유상황보고서" }
+  - { id: MAJOR_MOVE,   w: 30, tag: 지분,     re: "최대주주등소유주식변동신고서" }
+  - { id: TRIAL,        w: 35, tag: R&D,      re: "임상시험|투자판단관련주요경영사항" }
+  - { id: GUARANTEE,    w: 22, tag: 재무,     re: "타인에대한채무보증|타인에대한담보제공|금전대여결정" }
+  - { id: INSIDER,      w: 20, tag: 지분,     re: "임원ㆍ주요주주특정증권등소유상황보고서" }
+  - { id: AGM_RESULT,   w: 20, tag: 거버넌스, re: "주주총회결과" }
+  - { id: PERIODIC,     w: 25, tag: 실적,     re: "분기보고서|반기보고서|사업보고서" }
+  - { id: AGM_CALL,     w: 15, tag: 거버넌스, re: "주주총회소집" }
+  - { id: PROXY,        w: 15, tag: 거버넌스, re: "의결권대리행사권유" }
+  - { id: RECORD_DATE,  w: 8,  tag: 형식,     re: "주주명부폐쇄|기준일설정" }
+  - { id: IR,           w: 5,  tag: 형식,     re: "기업설명회" }
+  - { id: ESG,          w: 5,  tag: 형식,     re: "지속가능경영보고서" }
+  - { id: MISC,         w: 12, tag: 기타,     re: ".*" }
+
+# ---------- 2. 시장 가중 ----------
+market_cap_bonus:                # 유니버스 내 통합 시총 순위
+  - { max: 50,  v: 25 }
+  - { max: 150, v: 18 }
+  - { max: 300, v: 12 }
+  - { max: 500, v: 8 }
+price_move_bonus:                # 당일 |등락률|
+  - { min: 8.0, v: 12 }
+  - { min: 5.0, v: 8 }
+  - { min: 3.0, v: 4 }
+penalties:
+  amendment: -15                 # [기재정정] [첨부정정] — 단, 아래 diff 시그널이 잡히면 상쇄
+  voluntary_small: -15           # 자율공시(일정금액미만)
+  duplicate_group: -10           # 지주-자회사 동일사건 중복 공시 중 시총 작은 쪽
+
+# ---------- 3. 지배구조 시그널 (핵심) ----------
+# 원문 파싱 결과(fields)와 직전 공시 대비 diff에 걸어 가산.
+# hit되면 signal 태그가 붙고, 사이트의 '지배구조 트래커'에 종목별로 누적됨.
+signals:
+
+  # === 3-A. 승계 · 지분이동 ===
+  - id: SUCCESSION_GIFT
+    label: 승계 증여
+    axis: 승계
+    w: 35
+    when: "field:change_reason ~ '증여|수증'"
+    note: 최대주주 → 특수관계인 무상이전. 지분 총량은 유지되고 개인 간 이전만 발생하는 것이 전형.
+    escalate: { field: moved_ratio, gte: 1.0, w: 15 }   # 발행주식총수 대비 1% 이상이면 +15
+
+  - id: SUCCESSION_INHERIT
+    label: 상속
+    axis: 승계
+    w: 40
+    when: "field:change_reason ~ '상속'"
+
+  - id: PURPOSE_SHIFT
+    label: 보유목적 전환
+    axis: 행동주의
+    w: 45
+    when: "diff:hold_purpose '단순투자|일반투자' -> '경영권|경영참가|경영에 영향'"
+    note: 5%보고서의 보유목적이 단순투자 → 경영참가로 바뀌는 순간이 행동주의 개입의 최초 신호.
+
+  - id: PE_ENTRY
+    label: PE·사모펀드 진입
+    axis: 경영권
+    w: 30
+    when: "field:filer ~ '파트너스|에쿼티|PE|사모|인베스트|캐피탈|자산운용|어드바이저'"
+    requires_type: [LARGE_HOLD, MAJOR_CHG]
+
+  - id: STAKE_DROP
+    label: 최대주주 지분 감소
+    axis: 경영권
+    w: 25
+    when: "diff:holder_ratio_delta <= -3.0"
+    note: 직전 보고 대비 3%p 이상 감소. 블록딜·담보권 실행·상속세 납부 재원 마련 등.
+
+  - id: PLEDGE_RISK
+    label: 담보 제공
+    axis: 경영권
+    w: 30
+    when: "type:PLEDGE and title !~ '해제|취소'"
+    note: 최대주주 지분의 담보 제공은 반대매매 시 경영권 이전으로 직결.
+
+  - id: PLEDGE_RELEASE
+    label: 담보 해제
+    axis: 경영권
+    w: 12
+    when: "type:PLEDGE and title ~ '해제|취소'"
+
+  - id: HOLDCO_RESTRUCT
+    label: 지주 구조 재편
+    axis: 지주사
+    w: 45
+    when: "type:MERGE or (type:OTHER_EQ and field:counterparty_affiliate == true)"
+    note: 계열사 간 지분 이동은 지주사 전환·순환출자 해소의 사전 단계인 경우가 많음.
+
+  # === 3-B. 자본정책 · 밸류업 ===
+  - id: VALUEUP_FIRST
+    label: 밸류업 최초 공시
+    axis: 밸류업
+    w: 50
+    when: "type:VALUEUP and history:none"
+
+  - id: VALUEUP_UPGRADE
+    label: 밸류업 목표 상향
+    axis: 밸류업
+    w: 40
+    when: "diff:payout_target > 0 or diff:roe_target > 0"
+    note: 목표치가 직전 계획보다 올라간 경우만 가산. 단순 재공시는 제외.
+
+  - id: BUYBACK_SIZE
+    label: 자사주 규모
+    axis: 주주환원
+    w: 0
+    when: "type:BUYBACK or type:CANCEL_SHR"
+    scale:                                # 계약금액 ÷ 시가총액
+      - { gte: 3.0, w: 30 }
+      - { gte: 1.0, w: 18 }
+      - { gte: 0.5, w: 10 }
+      - { gte: 0.0, w: 0 }
+    note: 금액이 시총 대비 0.5% 미만이면 수급 영향이 사실상 없음 — 헤드라인만 보고 반응하지 말 것.
+
+  - id: CANCEL_PREMIUM
+    label: 소각 확정
+    axis: 주주환원
+    w: 15
+    when: "type:CANCEL_SHR"
+    note: 취득보다 소각이 강한 시그널. 취득 공시의 목적란에 '임직원 보상'이 있으면 전량 소각 가능성 낮음.
+
+  - id: BUYBACK_FAKE
+    label: 소각 없는 취득
+    axis: 주주환원
+    w: -12
+    when: "type:BUYBACK and field:purpose ~ '임직원|성과보상|스톡옵션'"
+
+  - id: OVERHANG
+    label: 오버행
+    axis: 희석
+    w: 20
+    when: "type:DISPOSE_SHR or type:CB_BW"
+    scale:                                # 발행·처분금액 ÷ 시가총액
+      - { gte: 10.0, w: 25 }
+      - { gte: 5.0,  w: 15 }
+      - { gte: 2.0,  w: 8 }
+      - { gte: 0.0,  w: 0 }
+
+  - id: CONTROL_CB
+    label: 지배력 강화형 조달
+    axis: 지배구조
+    w: 25
+    when: "(type:CB_BW or type:RIGHTS) and field:allocation ~ '제3자' and field:allottee_related == true"
+    note: 제3자배정 대상이 최대주주·특수관계인이면 자금조달이 아니라 지분율 방어 목적일 수 있음.
+
+  - id: TRUST_CUT
+    label: 환원 축소
+    axis: 주주환원
+    w: 20
+    when: "type:TRUST_END"
+
+  # === 3-C. 수주공시 변경 추적 ===
+  # 정정 공시를 직전 원공시와 diff 해서 '진짜 변경'만 골라냄.
+  - id: ORDER_CANCEL
+    label: 수주 취소
+    axis: 수주
+    w: 55
+    when: "type:ORDER and (title ~ '해지|해제' or diff:contract_amount_pct <= -95)"
+
+  - id: ORDER_DOWN
+    label: 수주 감액
+    axis: 수주
+    w: 45
+    when: "type:ORDER and diff:contract_amount_pct <= -5"
+    offsets_amendment: true
+
+  - id: ORDER_UP
+    label: 수주 증액
+    axis: 수주
+    w: 35
+    when: "type:ORDER and diff:contract_amount_pct >= 5"
+    offsets_amendment: true
+
+  - id: ORDER_DELAY
+    label: 납기 지연
+    axis: 수주
+    w: 30
+    when: "type:ORDER and (diff:end_date_days >= 30 or diff:end_date_to_tbd == true)"
+    offsets_amendment: true
+    note: 종료일이 뒤로 밀리거나 '미정'으로 바뀌는 정정. 신규 수주로 오독되기 쉬운 대표 케이스.
+
+  - id: ORDER_TRIVIAL
+    label: 단순 정정
+    axis: 수주
+    w: -25
+    when: "type:ORDER and is_amendment and diff:material == false"
+    force_grade: C
+    note: 금액·기간·상대방에 실질 변화가 없는 오기 정정. 등급을 강제로 C로 내림.
+
+  - id: ORDER_SIZE
+    label: 수주 규모
+    axis: 수주
+    w: 0
+    when: "type:ORDER and not is_amendment"
+    scale:                                # 계약금액 ÷ 최근매출액
+      - { gte: 30.0, w: 30 }
+      - { gte: 10.0, w: 20 }
+      - { gte: 5.0,  w: 10 }
+      - { gte: 0.0,  w: 0 }
+
+  # === 3-D. 종목 단위 패턴 ===
+  - id: CLUSTER_DAY
+    label: 당일 집중공시
+    axis: 패턴
+    w: 10
+    when: "count:same_corp_today >= 3"
+
+  - id: STREAK_GOV
+    label: 연속 지배구조 시그널
+    axis: 패턴
+    w: 18
+    when: "count:gov_signals_5d >= 2"
+    note: 5영업일 안에 지배구조 축 시그널이 2건 이상 — 단발 이벤트가 아니라 진행 중인 딜일 가능성.
+
+# ---------- 4. 등급 컷 ----------
+# 시그널 가산이 30~50점 붙기 때문에 컷을 유형가중치만 있을 때보다 높게 잡는다.
+grades:
+  S: 90      # 즉시 확인
+  A: 65      # 당일 확인
+  B: 40      # 참고
+  C: 0       # 아카이브
+
+# ---------- 5. LLM 요약 대상 ----------
+llm:
+  model: "claude-haiku-4-5-20251001"
+  min_score: 65            # 이 점수 이상만 원문 조회 + 요약
+  max_per_day: 20          # 비용 상한 (초과 시 점수 상위부터)
+  always_if_signal:        # 점수와 무관하게 요약할 시그널
+    [SUCCESSION_GIFT, SUCCESSION_INHERIT, PURPOSE_SHIFT, HOLDCO_RESTRUCT,
+     ORDER_CANCEL, ORDER_DOWN, VALUEUP_FIRST, VALUEUP_UPGRADE, PE_ENTRY]
+  doc_max_chars: 12000
+  allow_regrade: true      # LLM이 등급을 ±1단계 조정할 수 있음

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DART 공시 데일리</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>DART 공시 데일리</h1>
+      <div class="sub" id="sub">시총 상위 500 · 규칙 스코어 + 선별 LLM 요약</div>
+    </div>
+    <div class="datenav">
+      <button id="prev" title="이전 날짜">‹</button>
+      <select id="date"></select>
+      <button id="next" title="다음 날짜">›</button>
+    </div>
+  </header>
+
+  <div class="views" role="tablist">
+    <button class="view" id="v-daily" role="tab" aria-selected="true">일별 브리핑</button>
+    <button class="view" id="v-track" role="tab" aria-selected="false">지배구조 트래커</button>
+  </div>
+
+  <section id="daily">
+    <div class="funnel" id="funnel"></div>
+    <div class="cols">
+      <main>
+        <div class="controls">
+          <div class="tabs" id="tabs"></div>
+          <input class="srch" id="q" type="search" placeholder="종목명 · 종목코드 · 공시유형 · 시그널 검색" aria-label="검색">
+        </div>
+        <div class="list" id="list"></div>
+        <footer id="foot"></footer>
+      </main>
+      <aside class="rail" id="rail"></aside>
+    </div>
+  </section>
+
+  <section id="track" hidden>
+    <div class="cols">
+      <main>
+        <div class="controls">
+          <div class="tabs" id="taxes"></div>
+          <input class="srch" id="tq" type="search" placeholder="종목명 · 종목코드 검색" aria-label="트래커 검색">
+        </div>
+        <div class="trk" id="trklist"></div>
+      </main>
+      <aside class="rail" id="trail"></aside>
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

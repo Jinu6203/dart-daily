@@ -1,0 +1,219 @@
+{
+ "stocks": [
+  {
+   "code": "267250",
+   "name": "HD현대",
+   "market": "KOSPI",
+   "rank": 42,
+   "n": 4,
+   "last": "2026-09-03",
+   "axes": {
+    "승계": 3,
+    "수주": 1
+   },
+   "events": [
+    {
+     "date": "2026-09-03",
+     "name": "HD현대",
+     "market": "KOSPI",
+     "rank": 42,
+     "grade": "S",
+     "score": 120,
+     "report": "최대주주등소유주식변동신고서",
+     "rcept_no": "20260903800626",
+     "headline": "정몽준→정기선 280만주 증여",
+     "signals": [
+      {
+       "label": "승계 증여",
+       "axis": "승계",
+       "why": "증여 2,800,000주 (발행주식 대비 3.54%)"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-03",
+     "name": "HD현대",
+     "market": "KOSPI",
+     "rank": 42,
+     "grade": "S",
+     "score": 117,
+     "report": "임원ㆍ주요주주특정증권등소유상황보고서",
+     "rcept_no": "20260903000353",
+     "headline": null,
+     "signals": [
+      {
+       "label": "승계 증여",
+       "axis": "승계",
+       "why": "증여 2,800,000주 (발행주식 대비 3.54%)"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-03",
+     "name": "HD현대",
+     "market": "KOSPI",
+     "rank": 42,
+     "grade": "S",
+     "score": 112,
+     "report": "주식등의대량보유상황보고서(일반)",
+     "rcept_no": "20260903000361",
+     "headline": null,
+     "signals": [
+      {
+       "label": "승계 증여",
+       "axis": "승계",
+       "why": "소유주식 변동원인: 증여·수증"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-03",
+     "name": "HD현대",
+     "market": "KOSPI",
+     "rank": 42,
+     "grade": "A",
+     "score": 120,
+     "report": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+     "rcept_no": "20260903800541",
+     "headline": "2021년 FPSO 계약 기간 정정",
+     "signals": [
+      {
+       "label": "납기 지연",
+       "axis": "수주",
+       "why": "종료일 2026-09-03 → 미정"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "009540",
+   "name": "HD한국조선해양",
+   "market": "KOSPI",
+   "rank": 31,
+   "n": 1,
+   "last": "2026-09-03",
+   "axes": {
+    "수주": 1
+   },
+   "events": [
+    {
+     "date": "2026-09-03",
+     "name": "HD한국조선해양",
+     "market": "KOSPI",
+     "rank": 31,
+     "grade": "C",
+     "score": 105,
+     "report": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+     "rcept_no": "20260903800523",
+     "headline": "동일 FPSO 건 중복 공시",
+     "signals": [
+      {
+       "label": "납기 지연",
+       "axis": "수주",
+       "why": "종료일 2026-09-03 → 미정"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "138930",
+   "name": "BNK금융지주",
+   "market": "KOSPI",
+   "rank": 120,
+   "n": 1,
+   "last": "2026-09-03",
+   "axes": {
+    "밸류업": 1
+   },
+   "events": [
+    {
+     "date": "2026-09-03",
+     "name": "BNK금융지주",
+     "market": "KOSPI",
+     "rank": 120,
+     "grade": "S",
+     "score": 118,
+     "report": "기업가치 제고 계획(자율공시)",
+     "rcept_no": "20260903800537",
+     "headline": "BNK 밸류업 2.0 확정",
+     "signals": [
+      {
+       "label": "밸류업 최초 공시",
+       "axis": "밸류업",
+       "why": "밸류업 계획 최초 확인"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "004370",
+   "name": "농심",
+   "market": "KOSPI",
+   "rank": 181,
+   "n": 1,
+   "last": "2026-09-03",
+   "axes": {
+    "희석": 1
+   },
+   "events": [
+    {
+     "date": "2026-09-03",
+     "name": "농심",
+     "market": "KOSPI",
+     "rank": 181,
+     "grade": "B",
+     "score": 52,
+     "report": "[기재정정]주요사항보고서(자기주식처분결정)",
+     "rcept_no": "20260903000038",
+     "headline": null,
+     "signals": [
+      {
+       "label": "오버행",
+       "axis": "희석",
+       "why": "규모 미확인"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "399720",
+   "name": "가온칩스",
+   "market": "KOSDAQ",
+   "rank": 320,
+   "n": 1,
+   "last": "2026-09-03",
+   "axes": {
+    "주주환원": 2
+   },
+   "events": [
+    {
+     "date": "2026-09-03",
+     "name": "가온칩스",
+     "market": "KOSDAQ",
+     "rank": 320,
+     "grade": "B",
+     "score": 40,
+     "report": "주요사항보고서(자기주식취득 신탁계약 체결 결정)",
+     "rcept_no": "20260903000301",
+     "headline": "자사주 13억 신탁 체결",
+     "signals": [
+      {
+       "label": "자사주 규모",
+       "axis": "주주환원",
+       "why": "금액 13억원 = 시총의 0.26%"
+      },
+      {
+       "label": "소각 없는 취득",
+       "axis": "주주환원",
+       "why": "취득목적: 주주가치 제고 및 임직원 보상"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

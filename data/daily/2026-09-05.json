@@ -1,0 +1,23 @@
+{
+ "date": "2026-09-05",
+ "ruleset": "2026.09.04-1",
+ "generated_at": "2026-09-04T18:18:28+00:00",
+ "funnel": {
+  "raw": 0,
+  "kept": 0,
+  "matched": 0,
+  "parsed": 0,
+  "llm": 0
+ },
+ "universe": {
+  "as_of": "20260904",
+  "count": 0
+ },
+ "dist": {
+  "S": 0,
+  "A": 0,
+  "B": 0,
+  "C": 0
+ },
+ "items": []
+}

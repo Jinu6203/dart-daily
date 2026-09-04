@@ -1,0 +1,57 @@
+name: 공시 데일리 업데이트
+
+on:
+  schedule:
+    # UTC 15:05 = KST 익일 00:05. 직전 영업일 공시를 대상으로 돈다.
+    - cron: "5 15 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "특정 날짜만 다시 돌리기 (YYYY-MM-DD, 비우면 자동)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 룰 엔진 셀프테스트
+        run: python scripts/selftest.py
+
+      - name: 파이프라인 실행
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/run_daily.py "${{ github.event.inputs.date }}"
+
+      - name: 사이트 데이터 생성
+        run: python scripts/build_site.py
+
+      - name: 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "data: $(date -u -d '+9 hours' +%Y-%m-%d) 공시 업데이트"
+            git push
+          fi

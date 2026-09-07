@@ -1,0 +1,19 @@
+{
+ "date": "2026-09-08",
+ "raw": 1,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "00530413",
+   "corp_name": "더코디",
+   "stock_code": "224060",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260907000332",
+   "flr_nm": "더코디",
+   "rcept_dt": "20260908",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

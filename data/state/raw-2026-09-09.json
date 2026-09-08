@@ -1,0 +1,31 @@
+{
+ "date": "2026-09-09",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "01060735",
+   "corp_name": "로지스몬",
+   "stock_code": "223220",
+   "corp_cls": "N",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260908000434",
+   "flr_nm": "로지스몬",
+   "rcept_dt": "20260909",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00808086",
+   "corp_name": "HLB펩",
+   "stock_code": "196300",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20260908000431",
+   "flr_nm": "HLB펩",
+   "rcept_dt": "20260909",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

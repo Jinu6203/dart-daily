@@ -1,0 +1,43 @@
+{
+ "date": "2026-09-10",
+ "raw": 3,
+ "kept": 3,
+ "list": [
+  {
+   "corp_code": "00110884",
+   "corp_name": "엠젠솔루션",
+   "stock_code": "032790",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20260909000543",
+   "flr_nm": "엠젠솔루션",
+   "rcept_dt": "20260910",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00110884",
+   "corp_name": "엠젠솔루션",
+   "stock_code": "032790",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20260909000544",
+   "flr_nm": "엠젠솔루션",
+   "rcept_dt": "20260910",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01098792",
+   "corp_name": "본느",
+   "stock_code": "226340",
+   "corp_cls": "K",
+   "report_nm": "[첨부정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260909000542",
+   "flr_nm": "본느",
+   "rcept_dt": "20260910",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

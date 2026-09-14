@@ -1,0 +1,31 @@
+{
+ "date": "2026-09-15",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "01043853",
+   "corp_name": "베노티앤알",
+   "stock_code": "206400",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(감자결정)",
+   "rcept_no": "20260914000433",
+   "flr_nm": "베노티앤알",
+   "rcept_dt": "20260915",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01516890",
+   "corp_name": "E8",
+   "stock_code": "418620",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260914000432",
+   "flr_nm": "E8",
+   "rcept_dt": "20260915",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

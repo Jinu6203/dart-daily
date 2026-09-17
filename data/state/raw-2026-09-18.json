@@ -1,0 +1,43 @@
+{
+ "date": "2026-09-18",
+ "raw": 3,
+ "kept": 3,
+ "list": [
+  {
+   "corp_code": "01051472",
+   "corp_name": "젠큐릭스",
+   "stock_code": "229000",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(영업정지)",
+   "rcept_no": "20260917000376",
+   "flr_nm": "젠큐릭스",
+   "rcept_dt": "20260918",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01243161",
+   "corp_name": "인산가",
+   "stock_code": "277410",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260917000375",
+   "flr_nm": "인산가",
+   "rcept_dt": "20260918",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00125822",
+   "corp_name": "삼보산업",
+   "stock_code": "009620",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260917000373",
+   "flr_nm": "삼보산업",
+   "rcept_dt": "20260918",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

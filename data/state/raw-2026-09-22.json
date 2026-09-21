@@ -1,0 +1,67 @@
+{
+ "date": "2026-09-22",
+ "raw": 5,
+ "kept": 5,
+ "list": [
+  {
+   "corp_code": "01235296",
+   "corp_name": "셀리드",
+   "stock_code": "299660",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20260921000434",
+   "flr_nm": "셀리드",
+   "rcept_dt": "20260922",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01430475",
+   "corp_name": "코람코라이프인프라리츠",
+   "stock_code": "357120",
+   "corp_cls": "Y",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20260921000433",
+   "flr_nm": "코람코라이프인프라리츠",
+   "rcept_dt": "20260922",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01430475",
+   "corp_name": "코람코라이프인프라리츠",
+   "stock_code": "357120",
+   "corp_cls": "Y",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20260921000432",
+   "flr_nm": "코람코라이프인프라리츠",
+   "rcept_dt": "20260922",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01430475",
+   "corp_name": "코람코라이프인프라리츠",
+   "stock_code": "357120",
+   "corp_cls": "Y",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20260921000428",
+   "flr_nm": "코람코라이프인프라리츠",
+   "rcept_dt": "20260922",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01430475",
+   "corp_name": "코람코라이프인프라리츠",
+   "stock_code": "357120",
+   "corp_cls": "Y",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20260921000425",
+   "flr_nm": "코람코라이프인프라리츠",
+   "rcept_dt": "20260922",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "date": "2026-09-29",
+ "raw": 1,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "01453944",
+   "corp_name": "벡트",
+   "stock_code": "457600",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260928000391",
+   "flr_nm": "벡트",
+   "rcept_dt": "20260929",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

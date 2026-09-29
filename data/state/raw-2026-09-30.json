@@ -1,0 +1,19 @@
+{
+ "date": "2026-09-30",
+ "raw": 1,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "00579999",
+   "corp_name": "고영",
+   "stock_code": "098460",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(자기주식처분결정)",
+   "rcept_no": "20260929000686",
+   "flr_nm": "고영",
+   "rcept_dt": "20260930",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

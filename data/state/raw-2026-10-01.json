@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-01",
+ "raw": 3,
+ "kept": 3,
+ "list": [
+  {
+   "corp_code": "00151605",
+   "corp_name": "청보",
+   "stock_code": "013720",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20260930000878",
+   "flr_nm": "청보",
+   "rcept_dt": "20261001",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00110884",
+   "corp_name": "엠젠솔루션",
+   "stock_code": "032790",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20260930000870",
+   "flr_nm": "엠젠솔루션",
+   "rcept_dt": "20261001",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01601222",
+   "corp_name": "씨피시스템",
+   "stock_code": "413630",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유형자산양수결정)",
+   "rcept_no": "20260930000872",
+   "flr_nm": "씨피시스템",
+   "rcept_dt": "20261001",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

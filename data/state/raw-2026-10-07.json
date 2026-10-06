@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-07",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "00530413",
+   "corp_name": "더코디",
+   "stock_code": "224060",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261006000463",
+   "flr_nm": "더코디",
+   "rcept_dt": "20261007",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00530413",
+   "corp_name": "더코디",
+   "stock_code": "224060",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261006000462",
+   "flr_nm": "더코디",
+   "rcept_dt": "20261007",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

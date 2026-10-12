@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-13",
+ "raw": 4,
+ "kept": 4,
+ "list": [
+  {
+   "corp_code": "00528791",
+   "corp_name": "제일엠앤에스",
+   "stock_code": "412540",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261012000514",
+   "flr_nm": "제일엠앤에스",
+   "rcept_dt": "20261013",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00587925",
+   "corp_name": "모아라이프플러스",
+   "stock_code": "142760",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261012000513",
+   "flr_nm": "모아라이프플러스",
+   "rcept_dt": "20261013",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00781202",
+   "corp_name": "파이온엑스",
+   "stock_code": "900100",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261012000509",
+   "flr_nm": "파이온엑스",
+   "rcept_dt": "20261013",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00781202",
+   "corp_name": "파이온엑스",
+   "stock_code": "900100",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261012000506",
+   "flr_nm": "파이온엑스",
+   "rcept_dt": "20261013",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

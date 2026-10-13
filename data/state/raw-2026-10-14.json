@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-14",
+ "raw": 5,
+ "kept": 5,
+ "list": [
+  {
+   "corp_code": "00141404",
+   "corp_name": "블루산업개발",
+   "stock_code": "006740",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261013000437",
+   "flr_nm": "블루산업개발",
+   "rcept_dt": "20261014",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00141404",
+   "corp_name": "블루산업개발",
+   "stock_code": "006740",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261013000436",
+   "flr_nm": "블루산업개발",
+   "rcept_dt": "20261014",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00141404",
+   "corp_name": "블루산업개발",
+   "stock_code": "006740",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261013000435",
+   "flr_nm": "블루산업개발",
+   "rcept_dt": "20261014",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00145437",
+   "corp_name": "아센디오",
+   "stock_code": "012170",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261013000431",
+   "flr_nm": "아센디오",
+   "rcept_dt": "20261014",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00138297",
+   "corp_name": "STX",
+   "stock_code": "011810",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261013000428",
+   "flr_nm": "STX",
+   "rcept_dt": "20261014",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

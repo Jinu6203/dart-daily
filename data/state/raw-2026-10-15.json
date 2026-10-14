@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-15",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "01246742",
+   "corp_name": "테크트랜스",
+   "stock_code": "258050",
+   "corp_cls": "N",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261014000461",
+   "flr_nm": "테크트랜스",
+   "rcept_dt": "20261015",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01415892",
+   "corp_name": "제이알글로벌리츠",
+   "stock_code": "348950",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(회생절차개시신청)",
+   "rcept_no": "20261014000462",
+   "flr_nm": "제이알글로벌리츠",
+   "rcept_dt": "20261015",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

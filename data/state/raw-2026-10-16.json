@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-16",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "01077577",
+   "corp_name": "우리산업",
+   "stock_code": "215360",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(타법인주식및출자증권양수결정)",
+   "rcept_no": "20261015000444",
+   "flr_nm": "우리산업",
+   "rcept_dt": "20261016",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01423837",
+   "corp_name": "모아데이타",
+   "stock_code": "288980",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20261015000442",
+   "flr_nm": "모아데이타",
+   "rcept_dt": "20261016",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-23",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "00112378",
+   "corp_name": "KR모터스",
+   "stock_code": "000040",
+   "corp_cls": "Y",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20261022000510",
+   "flr_nm": "KR모터스",
+   "rcept_dt": "20261023",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00112378",
+   "corp_name": "KR모터스",
+   "stock_code": "000040",
+   "corp_cls": "Y",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20261022000509",
+   "flr_nm": "KR모터스",
+   "rcept_dt": "20261023",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

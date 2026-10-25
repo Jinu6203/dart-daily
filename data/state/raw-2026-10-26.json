@@ -1,0 +1,19 @@
+{
+ "date": "2026-10-26",
+ "raw": 1,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "00683007",
+   "corp_name": "퀀텀레일",
+   "stock_code": "070300",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(감자결정)",
+   "rcept_no": "20261023000491",
+   "flr_nm": "퀀텀레일",
+   "rcept_dt": "20261026",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

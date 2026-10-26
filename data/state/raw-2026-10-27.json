@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-27",
+ "raw": 5,
+ "kept": 5,
+ "list": [
+  {
+   "corp_code": "00602279",
+   "corp_name": "그린플러스",
+   "stock_code": "186230",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261026000394",
+   "flr_nm": "그린플러스",
+   "rcept_dt": "20261027",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00602279",
+   "corp_name": "그린플러스",
+   "stock_code": "186230",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261026000393",
+   "flr_nm": "그린플러스",
+   "rcept_dt": "20261027",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01423837",
+   "corp_name": "모아데이타",
+   "stock_code": "288980",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20261026000395",
+   "flr_nm": "모아데이타",
+   "rcept_dt": "20261027",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01423837",
+   "corp_name": "모아데이타",
+   "stock_code": "288980",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20261026000388",
+   "flr_nm": "모아데이타",
+   "rcept_dt": "20261027",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00963000",
+   "corp_name": "썬테크",
+   "stock_code": "217320",
+   "corp_cls": "N",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261026000385",
+   "flr_nm": "썬테크",
+   "rcept_dt": "20261027",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

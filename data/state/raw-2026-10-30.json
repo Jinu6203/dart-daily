@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-30",
+ "raw": 5,
+ "kept": 5,
+ "list": [
+  {
+   "corp_code": "01022902",
+   "corp_name": "애드바이오텍",
+   "stock_code": "179530",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261029000673",
+   "flr_nm": "애드바이오텍",
+   "rcept_dt": "20261030",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01022902",
+   "corp_name": "애드바이오텍",
+   "stock_code": "179530",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261029000674",
+   "flr_nm": "애드바이오텍",
+   "rcept_dt": "20261030",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01022902",
+   "corp_name": "애드바이오텍",
+   "stock_code": "179530",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261029000672",
+   "flr_nm": "애드바이오텍",
+   "rcept_dt": "20261030",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01284751",
+   "corp_name": "시지트로닉스",
+   "stock_code": "429270",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261029000669",
+   "flr_nm": "시지트로닉스",
+   "rcept_dt": "20261030",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00108977",
+   "corp_name": "대구백화점",
+   "stock_code": "006370",
+   "corp_cls": "Y",
+   "report_nm": "[기재정정]주요사항보고서(유형자산양도결정)",
+   "rcept_no": "20261029000668",
+   "flr_nm": "대구백화점",
+   "rcept_dt": "20261030",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

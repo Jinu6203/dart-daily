@@ -1,0 +1,19 @@
+{
+ "date": "2026-11-03",
+ "raw": 2,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "01374717",
+   "corp_name": "미트박스",
+   "stock_code": "475460",
+   "corp_cls": "K",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261103000001",
+   "flr_nm": "김기봉",
+   "rcept_dt": "20261103",
+   "rm": "",
+   "pblntf_ty": "D"
+  }
+ ]
+}

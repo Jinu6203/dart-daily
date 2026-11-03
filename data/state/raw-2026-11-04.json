@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-04",
+ "raw": 4,
+ "kept": 4,
+ "list": [
+  {
+   "corp_code": "01022902",
+   "corp_name": "애드바이오텍",
+   "stock_code": "179530",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261103000389",
+   "flr_nm": "애드바이오텍",
+   "rcept_dt": "20261104",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01022902",
+   "corp_name": "애드바이오텍",
+   "stock_code": "179530",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261103000388",
+   "flr_nm": "애드바이오텍",
+   "rcept_dt": "20261104",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01022902",
+   "corp_name": "애드바이오텍",
+   "stock_code": "179530",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261103000387",
+   "flr_nm": "애드바이오텍",
+   "rcept_dt": "20261104",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00813389",
+   "corp_name": "베셀",
+   "stock_code": "177350",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(자기전환사채만기전취득결정)",
+   "rcept_no": "20261103000386",
+   "flr_nm": "베셀",
+   "rcept_dt": "20261104",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

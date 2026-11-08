@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-09",
+ "raw": 2,
+ "kept": 2,
+ "list": [
+  {
+   "corp_code": "00838005",
+   "corp_name": "서진시스템",
+   "stock_code": "178320",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261106000482",
+   "flr_nm": "서진시스템",
+   "rcept_dt": "20261109",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00838005",
+   "corp_name": "서진시스템",
+   "stock_code": "178320",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261106000481",
+   "flr_nm": "서진시스템",
+   "rcept_dt": "20261109",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

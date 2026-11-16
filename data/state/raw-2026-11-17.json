@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-17",
+ "raw": 5,
+ "kept": 4,
+ "list": [
+  {
+   "corp_code": "01749559",
+   "corp_name": "엠에스바이오",
+   "stock_code": "0013Y0",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]분기보고서 (2026.09)",
+   "rcept_no": "20261117000004",
+   "flr_nm": "엠에스바이오",
+   "rcept_dt": "20261117",
+   "rm": "",
+   "pblntf_ty": "A"
+  },
+  {
+   "corp_code": "01415892",
+   "corp_name": "제이알글로벌리츠",
+   "stock_code": "348950",
+   "corp_cls": "Y",
+   "report_nm": "반기보고서 (2026.09)",
+   "rcept_no": "20261116002246",
+   "flr_nm": "제이알글로벌리츠",
+   "rcept_dt": "20261117",
+   "rm": "",
+   "pblntf_ty": "A"
+  },
+  {
+   "corp_code": "00656289",
+   "corp_name": "코스맥스엔비티",
+   "stock_code": "222040",
+   "corp_cls": "K",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261117000003",
+   "flr_nm": "김상우",
+   "rcept_dt": "20261117",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "01678312",
+   "corp_name": "아이빔테크놀로지",
+   "stock_code": "460470",
+   "corp_cls": "K",
+   "report_nm": "주식등의대량보유상황보고서(약식)",
+   "rcept_no": "20261116002251",
+   "flr_nm": "에이티넘인베스트",
+   "rcept_dt": "20261117",
+   "rm": "",
+   "pblntf_ty": "D"
+  }
+ ]
+}

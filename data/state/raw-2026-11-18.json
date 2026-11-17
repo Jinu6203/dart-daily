@@ -1,0 +1,43 @@
+{
+ "date": "2026-11-18",
+ "raw": 3,
+ "kept": 3,
+ "list": [
+  {
+   "corp_code": "00103547",
+   "corp_name": "우진비앤지",
+   "stock_code": "018620",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261117000265",
+   "flr_nm": "우진비앤지",
+   "rcept_dt": "20261118",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01689266",
+   "corp_name": "케이쓰리아이",
+   "stock_code": "431190",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "rcept_no": "20261117000264",
+   "flr_nm": "케이쓰리아이",
+   "rcept_dt": "20261118",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00103547",
+   "corp_name": "우진비앤지",
+   "stock_code": "018620",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261117000263",
+   "flr_nm": "우진비앤지",
+   "rcept_dt": "20261118",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

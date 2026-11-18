@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-19",
+ "raw": 5,
+ "kept": 5,
+ "list": [
+  {
+   "corp_code": "00231691",
+   "corp_name": "판타지오",
+   "stock_code": "032800",
+   "corp_cls": "K",
+   "report_nm": "[첨부정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261118000367",
+   "flr_nm": "판타지오",
+   "rcept_dt": "20261119",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00362122",
+   "corp_name": "나래나노텍",
+   "stock_code": "137080",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(자기주식취득결정)",
+   "rcept_no": "20261118000368",
+   "flr_nm": "나래나노텍",
+   "rcept_dt": "20261119",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01170962",
+   "corp_name": "GRT",
+   "stock_code": "900290",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261118000366",
+   "flr_nm": "GRT",
+   "rcept_dt": "20261119",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00363927",
+   "corp_name": "NE능률",
+   "stock_code": "053290",
+   "corp_cls": "K",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261118000362",
+   "flr_nm": "이정진",
+   "rcept_dt": "20261119",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "01688896",
+   "corp_name": "삼성FN리츠",
+   "stock_code": "448730",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261118000364",
+   "flr_nm": "삼성생명",
+   "rcept_dt": "20261119",
+   "rm": "",
+   "pblntf_ty": "D"
+  }
+ ]
+}

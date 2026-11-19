@@ -1,0 +1,19 @@
+{
+ "date": "2026-11-20",
+ "raw": 2,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "00261656",
+   "corp_name": "잉크테크",
+   "stock_code": "049550",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유형자산양도결정)",
+   "rcept_no": "20261119000427",
+   "flr_nm": "잉크테크",
+   "rcept_dt": "20261120",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

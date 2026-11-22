@@ -1,0 +1,19 @@
+{
+ "date": "2026-11-23",
+ "raw": 1,
+ "kept": 1,
+ "list": [
+  {
+   "corp_code": "01228515",
+   "corp_name": "앱튼",
+   "stock_code": "270520",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(유상증자결정)",
+   "rcept_no": "20261120000633",
+   "flr_nm": "앱튼",
+   "rcept_dt": "20261123",
+   "rm": "",
+   "pblntf_ty": "B"
+  }
+ ]
+}

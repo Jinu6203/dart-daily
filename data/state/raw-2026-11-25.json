@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-25",
+ "raw": 5,
+ "kept": 4,
+ "list": [
+  {
+   "corp_code": "00164478",
+   "corp_name": "현대건설",
+   "stock_code": "000720",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261125000007",
+   "flr_nm": "이형석",
+   "rcept_dt": "20261125",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "01835829",
+   "corp_name": "바로팜",
+   "stock_code": "0153R0",
+   "corp_cls": "K",
+   "report_nm": "주식등의대량보유상황보고서(약식)",
+   "rcept_no": "20261124000551",
+   "flr_nm": "에스비브이에이",
+   "rcept_dt": "20261125",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "01689266",
+   "corp_name": "케이쓰리아이",
+   "stock_code": "431190",
+   "corp_cls": "K",
+   "report_nm": "주식등의대량보유상황보고서(일반)",
+   "rcept_no": "20261124000552",
+   "flr_nm": "제이스커머스",
+   "rcept_dt": "20261125",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "00313649",
+   "corp_name": "현대바이오",
+   "stock_code": "048410",
+   "corp_cls": "K",
+   "report_nm": "투자판단관련주요경영사항(임상시험계획변경승인) (전립선암 치료제 CPPCA07의 1상 임상시험계획 변경승인)",
+   "rcept_no": "20261125900002",
+   "flr_nm": "현대바이오",
+   "rcept_dt": "20261125",
+   "rm": "코",
+   "pblntf_ty": "I"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-26",
+ "raw": 6,
+ "kept": 6,
+ "list": [
+  {
+   "corp_code": "01116502",
+   "corp_name": "아티스트컴퍼니",
+   "stock_code": "321820",
+   "corp_cls": "K",
+   "report_nm": "[기재정정]주요사항보고서(영업양도결정)",
+   "rcept_no": "20261125000790",
+   "flr_nm": "아티스트컴퍼니",
+   "rcept_dt": "20261126",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "01390344",
+   "corp_name": "HD현대중공업",
+   "stock_code": "329180",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261126000001",
+   "flr_nm": "이용화",
+   "rcept_dt": "20261126",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "01594791",
+   "corp_name": "나우로보틱스",
+   "stock_code": "459510",
+   "corp_cls": "K",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261125000792",
+   "flr_nm": "정태우",
+   "rcept_dt": "20261126",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "00125974",
+   "corp_name": "삼부토건",
+   "stock_code": "001470",
+   "corp_cls": "Y",
+   "report_nm": "중대재해발생",
+   "rcept_no": "20261126800001",
+   "flr_nm": "삼부토건",
+   "rcept_dt": "20261126",
+   "rm": "유",
+   "pblntf_ty": "I"
+  },
+  {
+   "corp_code": "00216498",
+   "corp_name": "성도이엔지",
+   "stock_code": "037350",
+   "corp_cls": "K",
+   "report_nm": "단일판매ㆍ공급계약해지(자율공시)",
+   "rcept_no": "20261126900002",
+   "flr_nm": "성도이엔지",
+   "rcept_dt": "20261126",
+   "rm": "코",
+   "pblntf_ty": "I"
+  },
+  {
+   "corp_code": "00263654",
+   "corp_name": "오스코텍",
+   "stock_code": "039200",
+   "corp_cls": "K",
+   "report_nm": "소송등의판결ㆍ결정",
+   "rcept_no": "20261126900003",
+   "flr_nm": "오스코텍",
+   "rcept_dt": "20261126",
+   "rm": "코",
+   "pblntf_ty": "I"
+  }
+ ]
+}

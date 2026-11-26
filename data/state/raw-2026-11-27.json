@@ -1,0 +1,91 @@
+{
+ "date": "2026-11-27",
+ "raw": 11,
+ "kept": 7,
+ "list": [
+  {
+   "corp_code": "00618410",
+   "corp_name": "KS인더스트리",
+   "stock_code": "101000",
+   "corp_cls": "K",
+   "report_nm": "주요사항보고서(유상증자결정)",
+   "rcept_no": "20261126000966",
+   "flr_nm": "KS인더스트리",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "B"
+  },
+  {
+   "corp_code": "00126380",
+   "corp_name": "삼성전자",
+   "stock_code": "005930",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261127000031",
+   "flr_nm": "이응규",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "00126380",
+   "corp_name": "삼성전자",
+   "stock_code": "005930",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261127000021",
+   "flr_nm": "김봉수",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "00126380",
+   "corp_name": "삼성전자",
+   "stock_code": "005930",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261127000008",
+   "flr_nm": "김지훈",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "00126380",
+   "corp_name": "삼성전자",
+   "stock_code": "005930",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261127000007",
+   "flr_nm": "이윤수",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "00126380",
+   "corp_name": "삼성전자",
+   "stock_code": "005930",
+   "corp_cls": "Y",
+   "report_nm": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "rcept_no": "20261127000004",
+   "flr_nm": "정민용",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "D"
+  },
+  {
+   "corp_code": "01010615",
+   "corp_name": "세나테크놀로지",
+   "stock_code": "061090",
+   "corp_cls": "K",
+   "report_nm": "신탁계약해지결과보고서",
+   "rcept_no": "20261127000006",
+   "flr_nm": "세나테크놀로지",
+   "rcept_dt": "20261127",
+   "rm": "",
+   "pblntf_ty": "E"
+  }
+ ]
+}
